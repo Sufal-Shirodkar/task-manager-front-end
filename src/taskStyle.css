@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(46, 17, 73);
+}
+h1{
+  color:rgb(230, 225, 231);
+  padding:30px;
+  margin:20px;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  
+}
+.task-form{
+  padding:20px;
+  margin:20px;
+  color:rgb(224, 223, 220);
+  position:absolute;
+  font-size: 20px;
+  left:900px;
+  top:100px
+}
+h3{
+  font-size: 1.8em;
+  padding:10px;
+  letter-spacing: 2px;
+}
+label{
+  font-size: 1.2em;
+  padding:10px;
+  text-align: center;
+}
+input {
+  padding:8px;
+  margin-bottom: 10px;
+  border:1px solid rgb(194, 191, 191)smoke;
+  border-radius: 8px;
+  font-size: 20px;
+  color:rgb(209, 208, 208)
+}
+.button{
+  /* background-color: rgb(180, 45, 45); */
+  background-color: rgb(88, 180, 45);
+  color:white;
+  padding:5px;
+  margin:10px
+}
+textarea{
+  padding:8px;
+  border:1px solid rgb(194, 191, 191)smoke;
+  border-radius: 8px;
+  font-size: 20px;
+  color:rgb(204, 203, 201)
+}
+select{
+  padding:5px;
+  border: 1px solid rgb(194, 191, 191)smoke;
+  border-radius: 8px;
+  margin: 10px;
+  color:rgb(204, 203, 201);
+  font-size:20px
+}
+ul{
+  margin:20px;
+  color:rgb(204, 203, 201);
+  list-style: disc;
+}
+li{
+  font-size: 20px;
+  padding:10px;
+  margin:20px
+}
+span{
+  margin-right: 20px;
+}
+button{
+  background-color: rgb(184, 72, 72); 
+  color:white;
+  padding:5px;
+  margin:10px;
+  border-radius:8px 
+}
+h2{
+  font-size: 30px;
+  padding:10px;
+  letter-spacing: 2px;
+  color:rgb(224, 223, 220);
+  position:relative;
+  left: 60px
+}
+.errors{
+  color:rgb(248, 152, 152);
+  font-size:18px;
+  margin-bottom: 10px;
+  position:absolute
+}
